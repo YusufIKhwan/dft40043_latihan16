@@ -1,45 +1,46 @@
-*{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
-
 .container {
     width: 100%;
-    max-width: 1180px;
-    margin: auto; 
-/* center */
-
+    max-width: 1140px;
+    margin: auto; / center */
 }
 
-@media screen and ( max-width:800px ) {
-    .container{
+@media screen and (max-width: 800px) {
+    .container {
         max-width: 780px;
     }
-
-    .col{
-        width: 100px;
+    .col {
+        width: 100%;
     }
 }
 
-.row{
+.row {
     margin-top: 50px;
 }
 
 .row::after {
     display: table;
     clear: both;
-    content:  "";
+    content: "";
 }
 
-.col{
-    width: 33%;
+.col {
+    width: 30%;
     float: left;
+    padding: 10px;
+    text-align: center;
 }
 
-.isi{
-    border: 1px salmon;
+.isi {
+    border: 1px solid gray;
     padding: 30px;
     border-radius: 10px;
     font-weight: bold;
     font-size: 14pt;
     cursor: pointer;
 }
+
+Message @Woof
